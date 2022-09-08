@@ -1,6 +1,6 @@
-import Header from './components/Header'
-import SalesCard from './components/SalesCard'
-import './index.css'
+import Header from './components/Header';
+import SalesCard from './components/SalesCard';
+import './index.css';
 
 export default function App() {
  return (
