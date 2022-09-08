@@ -1,11 +1,18 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import './App.css'
+import Header from './components/Header'
+import SalesCard from './components/SalesCard'
+import './index.css'
 
-function App() {
+export default function App() {
  return (
-  <h1>Olá mundo!</h1>
+  <>
+    <Header />
+    <main>
+      <section id="sales">
+        <div className="dsmeta-contrainer">
+          <SalesCard />
+        </div>
+      </section>
+    </main>
+  </>
  )
 }
-
-export default App
